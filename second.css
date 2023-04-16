@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.content{
+    height: 80vh;
+    width: 100vw;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item{
+    font-size: 2vh;
+}
