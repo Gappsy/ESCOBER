@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Medj</title>
+        <title>Home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Bootstrap-->
@@ -14,63 +14,40 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         
-        <style>
-        </style>
+        <script>
+            $(document).ready(function(){
+                $("#textbtn").click(function(){
+                    $("#textbtn").fadeOut("3000");
+                    $("#WelcomeText").delay(1000).fadeIn("6000");
+                    $("#WelcomeText").delay(2000).fadeOut("8000").promise().done(
+                        function()
+                        {window.location.href = '/about.html';});  
+                });
+            });
+            $(function(){
+                $("#header").load("header.html"); 
+            });
+        </script>
+
     </head>
 
-    <body class="text-white">
-        <div>
-            <nav  class="navbar navbar-expand-lg navbar-dark bg-clear" >
-                <button class="navbar-toggler" 
-                        type="button" 
-                        data-bs-toggle="collapse" 
-                        data-bs-target="#navbarNav" 
-                        aria-controls="navBarNav" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation">
+    <body class="text-white" style="background-color: black;">
 
-                            <span class="navbar-toggler-icon"></span>
-                </button>
+    <div id="header"></div>
 
-                <div class="collapse navbar-collapse justify-content-center" id = "navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active">
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active">
-                                About Me
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active">
-                                Portfolio
-                            </a>
-                        </li>
-
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link active">
-                                Contact Me
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div style="display: flex;">
+        <!--MAIN TEXT-->
+        <div class= "content">
+            <button type="button" id="textbtn"class="btn text-white" onclick="discover()">
+                <a href="#" id="btntext" class="text-reset text-decoration-none">
+                DISCOVER
+                </a>  
+            </button>
+            <h1 id="WelcomeText" style="display: none;">Welcome To My Portfolio</h1>
         </div>
 
-    <!--MAIN TEXT-->
-    <div class="content">
-        <button onclick="disappear()" type="button" class="btn text-white">
-            <a id="discover" href="#" class="text-reset text-decoration-none">
-            DISCOVER
-            </a>  
-        </button>
-        
     </div>
 
     </body>
