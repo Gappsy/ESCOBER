@@ -1,7 +1,8 @@
 body{
-    background-color:black;
+    background-color:#141414;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
+    color: white;
 }
 .content{
     height: 80vh;
@@ -13,4 +14,24 @@ body{
 }
 .nav-item{
     font-size: 2vh;
+}
+#aboutDiv{
+    justify-content: center;
+    width: 70vh;
+    height: 400vh;
+    float: right;
+    margin-right: 30vh;
+    margin-top: 15vh;
+    display: none;
+
+}
+.aboutCut{
+    margin-bottom:25vh;
+}
+.desc{
+    margin-left: 20px;
+}
+.desc2{
+    margin-left: 25px;
+    margin-bottom:10px;
 }
