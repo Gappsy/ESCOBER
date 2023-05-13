@@ -18,7 +18,7 @@ body{
 #aboutDiv{
     justify-content: center;
     width: 70vh;
-    height: 400vh;
+   
     float: right;
     margin-right: 30vh;
     margin-top: 15vh;
@@ -34,4 +34,22 @@ body{
 .desc2{
     margin-left: 25px;
     margin-bottom:10px;
+}
+#WelcomeLand{
+    justify-content:flex-end;
+    font-size: 10vh;
+    margin-left:4%;
+    
+}
+.WelcomeContainer{
+    margin-top:6em;
+    margin-right: 6em;
+    display: none;
+    width: 50vh;
+    height: 45vh;
+    display: flex;
+    float: right;
+    border-style: solid;
+    border-color: white;
+    display: none;
 }
