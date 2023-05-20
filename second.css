@@ -35,21 +35,37 @@ body{
     margin-left: 25px;
     margin-bottom:10px;
 }
-#WelcomeLand{
-    justify-content:flex-end;
-    font-size: 10vh;
-    margin-left:4%;
-    
-}
-.WelcomeContainer{
-    margin-top:6em;
-    margin-right: 6em;
-    display: none;
-    width: 50vh;
-    height: 45vh;
+.container-main{
     display: flex;
-    float: right;
-    border-style: solid;
-    border-color: white;
-    display: none;
+    margin-top: 40vh;
+    justify-content: center;
+    font-size: 4em;
+    margin-bottom: 40vh;
+}
+.card-grouper{
+    width: 70vw;
+    margin: auto;
+    justify-content: center;
+    padding: 2vw;
+    border-radius: 40px;
+    margin-bottom: 10%;
+    text-align: center;
+   
+}
+.card{
+    margin: 5%;
+}
+.title{
+    margin-top: 20%;
+}
+.contacts{
+
+    margin-top: 5vh;
+}
+.titlecontacts{
+        display: flex;
+        margin-top: 20vh;
+        justify-content: center;
+        font-size: 4em;
+        margin-bottom: 5vh;
 }
