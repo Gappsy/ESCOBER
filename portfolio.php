@@ -1,18 +1,13 @@
 <title>Portfolio</title>
-        <?php
-        include('header.html');?>
-    <script> 
-            $(document).ready(function(){
-                    $(".WelcomeContainer").fadeIn(6000);
-                });            
-        </script>
+    <?php
+        include('header.html');?>      
     </head>
 
     <body>
         <div id="header"></div>
         
         <div class="container-main">  
-            <p>Welcome To My Portfolio</p>
+            <p id="Welcometo">Welcome To My Portfolio</p>
         </div>
 
         <div class="card-grouper">
@@ -26,11 +21,11 @@
                 </div>
 
                 <div class="card col">
-                    <img src="/public/biol.png" alt="">
+                    <img src="/public/physics.png" alt="">
                 </div>
                     
                 <div class="card col">
-                    <img src="/public/biol.png" alt="">
+                    <img src="/public/poetry.png" alt="">
                 </div>
 
             </div>

@@ -3,11 +3,6 @@
     include('header.html');
 ?>
 
-        <script> 
-            $(document).ready(function(){
-                $(' #aboutDiv').fadeIn(3000);
-            })
-        </script>
     </head>
 
     <body>
