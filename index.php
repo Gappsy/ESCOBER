@@ -21,7 +21,7 @@
     <div style="display: flex;">
         <!--MAIN TEXT-->
         <div class= "content">
-            <button type="button" id="textbtn"class="btn text-white" onclick="discover()">
+            <button type="button" id="textbtn"class="btn text-white" onclick="discover()" id="btn-disc" >
                 <a href="#" id="btntext" class="text-reset text-decoration-none">
                 DISCOVER
                 </a>  
