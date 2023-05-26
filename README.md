@@ -1,3 +1,3 @@
-Name:Guirald Malone Escober
-Date Started: April 16,2022
-Accidentally nasa kabilang branch(master) instead sa main branch ang code
+Name:Guirald Malone Escober <br>
+Date Started: April 16,2022 <br>
+Video Link:https://youtu.be/_kWt46APwwM
